@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #dddddd;
+}
+.content{
+    padding: 10px;
+}
+.russianspirit3d{
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: -1;
+}
+.encabezado1{
+    position: absolute; 
+    margin: 0;
+    width: 100%;
+}
+.encabezado1:hover{
+    background-color: white;
+    transition: background-color 0.5s;
+}
+.navegacion{
+    text-align: center;
+}
+.navegacion li{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    font-family: "Hina Mincho", serif;
+}
+main{
+    font-family: "Hina Mincho", serif;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+} 
+h1{
+    font-size: 3rem;
+    text-align: center;
+    padding: 10px;
+    font-family: "Monsieur La Doulaise", cursive;
+}
+h1 a{
+    color: blue;
+}
+h2{
+    padding: 10px;
+}
+ul{
+    list-style-type: none;
+}
+.subtitulo{
+    font-size: 2rem;
+}
+.margin-top-bottom{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.tamano600{
+    width: 600px;
+}
+.tamano400{
+    width: 400px;
+}
+.caja{
+    width: 800px;
+    height: 50px;
+    overflow: auto;
+    line-height: 1.5;
+}
+
+.pie{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.lista1{
+    text-align: center;
+    list-style-type: circle;
+    margin: 10px;
+    padding: 10px;
+    font-family: "Hina Mincho", serif;
+}
+p{
+    font-family: "Hina Mincho", serif;
+}
+.video{
+    float: left;
+    width: 600px;
+}
+.container-pie{
+    text-align: center;
+}
+h6{
+    text-align: center;
+    margin-top: 20px;
+}
+.columna{
+    display: flex;
+    justify-content: center; 
+}
+footer{
+    font-family: "Hina Mincho", serif;
+    padding: 10px;
+}
+.columna1{
+    margin-right: 20px;
+}
+.columna2{
+    margin-left: 20px;
+}
+.textocentrado{
+    text-align: center;
+}
+form{
+    text-align: center;
+    margin: 0 auto;
+    width: 30%;
+}
+.articulos{
+    display: flex;
+    justify-content: center;
+}
+.remeraoversize{
+    margin-left: 20px;
+}
+.remeraslim{
+    margin-right: 20px;
+}
+.usuario{
+    margin: 10px;
+    width: 30px;
+}
+.chango{
+    margin: 10px;
+}
+.access{
+    margin-left: 90%;
+    
+}
